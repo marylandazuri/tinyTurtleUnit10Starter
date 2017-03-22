@@ -11,28 +11,28 @@ forward(50);
 right(90);
 forward(50);
 }
-function triangle () {
-    forward (75);
+function triangle (size) {
+    forward (size);
     right (120);
-    forward (75);
+    forward (size);
     right (120);
-    forward (75);
+    forward (size);
     right (120);
     
 }
 // Type your function call below
-rectangle();
+rectangle(70);
 stamp();
 
-function rectangle (){
-    forward (115);
+function rectangle (size){
+    forward (size);
     right (80);
-    forward (115);
+    forward (size);
     right (80);
-    forward (115);
+    forward (size);
     right (80);
-    forward(115)
+    forward(size)
     right (80)
-    forward(115)
+    forward(size)
     
 }
